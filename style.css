@@ -1,6 +1,147 @@
+body{
+    padding: 0;
+    margin: 0;
+}
 .header1 {
     background-color: #1F2937;
 }
-.mainbody{
-    background-color: blue;
+.subheader-1 {
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.subheader-2 {
+    display: flex;
+}
+.insidehead{
+    width: 400px;
+    height: 200px;
+    margin: 100px;
+    color: #F9FAF8;
+   
+}
+.insidehead-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 200px;
+    background-color: grey;
+    margin: 100px;
+    color: #F9FAF8;
+}
+a {
+    text-decoration: none;
+color: white;
+}
+.Logo {
+    margin-left: 20px;
+    color: #F9FAF8;
+}
+.links {
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20px;
+}
+button {
+    border-radius: 5px;
+    border: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    margin: 5px;
+    margin-left: 0;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+h1{
+    color: #F9FAF8;
+}
+.layer-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cards{
+    font-size:x-large;
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.card {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 10%;
+}
+.container {
+    padding: 25px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+.text{
+    font-size:large;
+    font-weight: normal;
+    width: 200px;
+    padding-bottom: 50px;
+}
+.layer-3{
+    display: flex;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.layer-3-inside-1 {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+    width: 700px;
+}
+.layer-3-inside-2 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: x-large;
+
+}
+.layer-4 {
+    background-color:white ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+}
+.card-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #3882F6;
+    color: white;
+    width: 800px;
+    height: 150px;
+    border-radius: 10px;
+
+}
+h2,h3 {
+    padding: 0%;
+    margin: 0%;
+}
+h3 {
+    font-size: small;
+}
+.button-2 {
+    border: 3px solid white;
+    border-radius: 10px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+    height: 100px;
 }
