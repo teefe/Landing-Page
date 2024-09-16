@@ -83,10 +83,12 @@ h1{
     font-size: xx-large;
 }
 .text{
+    display: flex;
+    justify-content: center;
     font-size:large;
     font-weight: normal;
     width: 200px;
-    padding-bottom: 50px;
+    /*padding-bottom: 30px;*/
 }
 .layer-3{
     display: flex;
