@@ -1,9 +1,12 @@
 body{
     padding: 0;
     margin: 0;
+    font-size: 1em;
 }
-.header1 {
+.layer-1 {
     background-color: #1F2937;
+    width: auto;
+    height: auto;
 }
 .subheader-1 {
     padding: 5vh;
@@ -12,11 +15,13 @@ body{
 }
 .subheader-2 {
     display: flex;
+    font-size: 1vw;
 }
 .insidehead{
     width: 30vw;
     height: 18vh;
     margin: 7vw;
+    font-size: 2em;
     color: #F9FAF8;
    
 }
@@ -27,6 +32,7 @@ body{
     width: 28vw;
     height: 25vh;
     background-color: grey;
+    font-size: 2em;
     margin: 7vw;
     color: #F9FAF8;
 }
@@ -46,16 +52,17 @@ a {
     margin-right: 1.5vw;
 }
 button {
-    border-radius: 5px;
+    border-radius: 0.5vw;
     border: none;
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
-    margin: 5px;
+    font-size: 1rem;
+    margin: 0.5vw;
     margin-left: 0;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 0.7vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 h1{
     color: #F9FAF8;
