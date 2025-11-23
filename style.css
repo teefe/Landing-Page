@@ -6,7 +6,7 @@ body{
     background-color: #1F2937;
 }
 .subheader-1 {
-    padding: 50px;
+    padding: 5vh;
     display: flex;
     justify-content: space-between;
 }
@@ -14,9 +14,9 @@ body{
     display: flex;
 }
 .insidehead{
-    width: 400px;
-    height: 200px;
-    margin: 100px;
+    width: 30vw;
+    height: 18vh;
+    margin: 7vw;
     color: #F9FAF8;
    
 }
@@ -24,26 +24,26 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 400px;
-    height: 200px;
+    width: 28vw;
+    height: 25vh;
     background-color: grey;
-    margin: 100px;
+    margin: 7vw;
     color: #F9FAF8;
 }
 a {
     text-decoration: none;
-color: white;
+    color: white;
 }
 .Logo {
-    margin-left: 20px;
+    margin-left: 2vw;
     color: #F9FAF8;
 }
 .links {
     color: #F9FAF8;
     display: flex;
     align-items: center;
-    gap: 30px;
-    margin-right: 20px;
+    gap: 1.5vw;
+    margin-right: 1.5vw;
 }
 button {
     border-radius: 5px;
