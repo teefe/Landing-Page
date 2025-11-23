@@ -21,7 +21,7 @@ body{
     width: 30vw;
     height: 18vh;
     margin: 7vw;
-    font-size: 2em;
+    font-size: 1.2em;
     color: #F9FAF8;
    
 }
@@ -32,7 +32,7 @@ body{
     width: 28vw;
     height: 25vh;
     background-color: grey;
-    font-size: 2em;
+    font-size: 1.2em;
     margin: 7vw;
     color: #F9FAF8;
 }
@@ -75,17 +75,17 @@ h1{
 .cards{
     font-size:x-large;
     display: flex;
-    gap: 30px;
+    gap: 3vw;
     justify-content: space-around;
 }
 .card {
-    width: 200px;
-    height: 200px;
+    width: 15vw;
+    height: 21vh;
     border: 4px solid #3882F6;
     border-radius: 10%;
 }
 .container {
-    padding: 25px;
+    padding: 2vw;
     font-weight: bolder;
     font-size: xx-large;
 }
@@ -94,7 +94,7 @@ h1{
     justify-content: center;
     font-size:large;
     font-weight: normal;
-    width: 200px;
+    width: 10vw;
     /*padding-bottom: 30px;*/
 }
 .layer-3{
